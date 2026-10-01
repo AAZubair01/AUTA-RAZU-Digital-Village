@@ -1,40 +1,57 @@
-# RADXtra — Radiography Student Learning Hub
+# RADXtra — A Radiography Student Learning Hub
 
-Deployment-ready static website for the 2026/2027 academic session.
+Academic session: 2026/2027
 
-## Navigation structure
+RADXtra is a static GitHub Pages learning hub for Radiography students. The site uses a clean navigation flow:
 
-Students follow this sequence:
+1. Student opens their level link.
+2. Student confirms the level card.
+3. Student selects a lecturer.
+4. Student opens course materials and lecture PDF cards.
 
-1. Open the official level link.
-2. Select the active level card.
-3. Choose the lecturer.
-4. Open the course section.
-5. Open the correct lecture-session PDF.
+## Main structure
 
-## Main folders
-
-- `level2/`
-- `level3/`
-- `level4/`
-- `level5/`
-- `assets/`
-
-Each level has its own entrance page and a separate lecturer-directory page.
+- `index.html` — RADXtra main landing page.
+- `home.html` — redirect compatibility page.
+- `level2/`, `level3/`, `level4/`, `level5/` — level-specific entry folders.
+- `levelX/lecturers/` — lecturer directory and lecturer workspace pages.
+- `levelX/pdfs/lecturer-name/` — PDF upload folder for that lecturer.
 
 ## Lecturer identity
 
-- Workspace name: `AUTA-RAZU`
-- Academic name: `Abdulrazaq A. Zubair`
+- Platform name: RADXtra
+- Workspace name / nickname: AUTA-RAZU
+- Formal academic name: Abdulrazaq A. Zubair
 
-## Uploading PDFs
+## PDF filename rule
 
-Upload PDF files into the relevant lecturer PDF folder using the filenames already used by the buttons.
+Use hyphens only. Do not put `/` in the PDF filename.
 
-Example:
+Correct filename example:
 
 ```text
-level3/pdfs/auta-razu/rdx-301-session-1.pdf
+rad-201-session-1.pdf
 ```
 
-After upload, the matching `Open PDF` button will work automatically.
+Correct folder example:
+
+```text
+level2/pdfs/auta-razu/
+```
+
+So the full upload location becomes:
+
+```text
+level2/pdfs/auta-razu/rad-201-session-1.pdf
+```
+
+In that full location, the `/` characters are folders. They are not part of the PDF filename.
+
+## Current AUTA-RAZU courses
+
+- Level 2: RAD-201 — Radiation Physics
+- Level 4: RAD-423 — Imaging Informatics
+- Level 4: RAD-447 — Radionuclide Imaging / Nuclear Medicine
+- Level 5: RAD-541 — Magnetic Resonance Imaging II
+
+See `UPLOAD-GUIDE.md` for the exact PDF names to upload.
