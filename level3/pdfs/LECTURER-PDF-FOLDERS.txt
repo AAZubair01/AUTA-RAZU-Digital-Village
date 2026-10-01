@@ -1,0 +1,4 @@
+This folder contains lecturer PDF upload folders.
+
+Open the lecturer folder and upload the lecture PDF files there.
+Keep this file so GitHub continues to display this folder before PDFs are uploaded.

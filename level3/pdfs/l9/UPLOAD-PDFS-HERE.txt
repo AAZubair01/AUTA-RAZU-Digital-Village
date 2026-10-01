@@ -1,0 +1,14 @@
+RADXtra lecture PDF upload folder
+
+Level: level3
+Lecturer folder: l9
+
+Upload lecture PDF files into this folder using the exact filenames linked in the lecturer workspace.
+
+Examples for AUTA-RAZU:
+- level2/pdfs/auta-razu/rad-201-session-1.pdf
+- level4/pdfs/auta-razu/rad-423-session-1.pdf
+- level4/pdfs/auta-razu/rad-447-session-1.pdf
+- level5/pdfs/auta-razu/rad-541-session-1.pdf
+
+Do not delete this holder file until at least one PDF has been uploaded into this folder.
